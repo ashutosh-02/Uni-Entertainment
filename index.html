@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Tooplate">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+  <title>Uni-Entertainment</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/tooplate-main.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+  <!-- Music Material CSS Files -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<!--
+Tooplate 2113 Earth
+https://www.tooplate.com/view/2113-earth
+-->
+
+<body>
+
+  <div class="sequence">
+
+    <div class="seq-preloader">
+      <svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator">
+        <g fill="#F96D38">
+          <path class="seq-preload-circle seq-preload-circle-1"
+            d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z" />
+          <path class="seq-preload-circle seq-preload-circle-2"
+            d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z" />
+          <path class="seq-preload-circle seq-preload-circle-3"
+            d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z" />
+        </g>
+      </svg>
+    </div>
+
+  </div>
+
+  <div class="logo">
+    <h1>Uni-Entertainment</h1>
+    <h2>U-E</h2>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#1"><img src="assets/data/images/icon-1.png" alt=""> <em>Homepage</em></a></li>
+      <li><a href="#2"><img src="assets/data/images/icon-3.png" alt=""> <em>Books</em></a></li>
+      <li><a href="#3"><img src="assets/data/images/icon-5.png" alt=""> <em>Music</em></a></li>
+      <li><a href="#4"><img src="assets/data/images/icon-2.png" alt=""> <em>About Us</em></a></li>
+      <li><a href="#5"><img src="assets/data/images/icon-4.png" alt=""> <em>Contact Us</em></a></li>
+
+    </ul>
+  </nav>
+
+  <div class="slides">
+    <div class="slide" id="1">
+      <div id="slider-wrapper">
+        <div id="image-slider">
+          <ul>
+            <li class="active-img">
+              <div class="slide-caption">
+                <h6>Uni-Entertainment</h6>
+                <h2>Unlimited<br>Entertainment</h2>
+              </div>
+            </li>
+            <li>
+              <div class="slide-caption">
+                <h6>Latest One</h6>
+                <h2>Tech<br>Meeting</h2>
+              </div>
+            </li>
+            <li>
+              <div class="slide-caption">
+                <h6>Your Update</h6>
+                <h2>Smart<br>Devices</h2>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="thumbnail">
+          <ul>
+            <li class="active"><img src="assets/data/images/thumb-01.jpg" alt="Earth" /></li>
+            <li><img src="assets/data/images/thumb-02.jpg" alt="Meeting" /></li>
+            <li><img src="assets/data/images/thumb-03.jpg" alt="Smart" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide" id="2">
+      <div class="content third-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="owl-carousel owl-theme book">
+              <!-- BOOK inserting here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Music slide is start -->
+
+    <div class="slide" id="3">
+      <div class="container">
+        <div class="player">
+          <div class="wrapper">
+            <div class="top-bar">
+              <i class="material-icons">expand_more</i>
+              <span>Now Playing</span>
+              <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+              <img src="" alt="">
+            </div>
+            <div class="song-details">
+              <p class="name"></p>
+              <p class="artist"></p>
+            </div>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+              </div>
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+              </div>
+            </div>
+            <div class="controls">
+              <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+              <i id="prev" class="material-icons">skip_previous</i>
+              <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+              </div>
+              <i id="next" class="material-icons">skip_next</i>
+              <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+              <div class="header">
+                <div class="row">
+                  <i class="list material-icons">queue_music</i>
+                  <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+              </div>
+              <ul>
+                <!-- here li list are coming from js -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Music Slide is Over -->
+
+    <div class="slide" id="4">
+      <div class="content second-content">
+        <div id='tabs'>
+          <ul>
+            <li><a href='#tabs-1'><span class='fa fa-desktop'></span></a></li>
+            <li><a href='#tabs-2'><span class='fa fa-users'></span></a></li>
+            <li><a href='#tabs-3'><span class='fa fa-mobile'></span></a></li>
+          </ul>
+          <section class='tabs-content'>
+            <article id='tabs-1'>
+              <h2>Features</h2>
+              <span>Unliversal Entertainment is the way to Entertain the Client. </span>
+              <p>Book Store</p>
+              <p>Music Store</p>
+              <p>Weather-forcast</p>
+              <p>This is College Project don,t give any copyright on books.</p>
+            </article>
+            <article id='tabs-2'>
+              <h2>Every features works</h2>
+              <span></span>
+              <p>Book - We have lots of collection of book. Different Categories like Romance,Science,Friction,Short
+                Stories and much more.</p>
+              <p>Music -Collection of different songs from various artist like Justine Bieber,BTS,Selena Gomaze etc.
+              </p>
+              <p>Weather - whether report of all cities of all over the world. </p>
+            </article>
+            <article id='tabs-3'>
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Message !</h2>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Your email..."
+                      required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..."
+                      required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button">Send Now</button>
+                  </fieldset>
+                </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="slide" id="5">
+      <div class="content fourth-content">
+        <div class="container-fluid">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Message !</h2>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                </fieldset>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="email" type="text" class="form-control" id="email" placeholder="Your email..."
+                    required="">
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..."
+                    required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Send Now</button>
+                </fieldset>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Books Material JS Files -->
+  <script src="assets/js/books-list.js"></script>
+  <script src="assets/js/book.js"></script>
+
+
+  <!-- Music Material JS Files -->
+  <script src="assets/js/music-list.js"></script>
+  <script src="assets/js/music.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Additional Scripts -->
+  <script src="assets/js/owl.js"></script>
+  <script src="assets/js/accordations.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      // navigation click actions 
+      $('.scroll-link').on('click', function (event) {
+        event.preventDefault();
+        var sectionID = $(this).attr("data-id");
+        scrollToID('#' + sectionID, 750);
+      });
+      // scroll to top action
+      $('.scroll-top').on('click', function (event) {
+        event.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+      });
+      // mobile nav toggle
+      $('#nav-toggle').on('click', function (event) {
+        event.preventDefault();
+        $('#main-nav').toggleClass("open");
+      });
+    });
+    // scroll function
+    function scrollToID(id, speed) {
+      var offSet = 0;
+      var targetOffset = $(id).offset().top - offSet;
+      var mainNav = $('#main-nav');
+      $('html,body').animate({ scrollTop: targetOffset }, speed);
+      if (mainNav.hasClass("open")) {
+        mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+        mainNav.removeClass("open");
+      }
+    }
+    if (typeof console === "undefined") {
+      console = {
+        log: function () { }
+      };
+    }
+  </script>
+
+</body>
+
+</html>
